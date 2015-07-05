@@ -102,7 +102,8 @@ namespace Livetex.Push
 
 			// Обработка навигации инициированной push сообщением
 
-			if (e.NavigationMode != NavigationMode.New)
+			if (e.NavigationMode != NavigationMode.New
+				&& e.NavigationMode != NavigationMode.Refresh)
 			{
 				return;
 			}
