@@ -128,7 +128,7 @@ namespace Livetex.Push
 
 			viewSubscribeButton.IsEnabled = false;
 
-			viewBusyMessage.Text = "подключение к WPNS";
+			viewBusyMessage.Text = "подключение к WNS";
 			viewBusyPanel.Visibility = Visibility.Visible;
 			
 			try
