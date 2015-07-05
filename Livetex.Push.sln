@@ -18,6 +18,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveTex.Thrift", "..\Livete
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Livetex.Push.WNS", "Livetex.Push.WNS\Livetex.Push.WNS.csproj", "{3A992BD2-01F8-40FA-B9ED-58EA1DB72FC9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4C3F8F70-C1C3-4556-9332-BDADD45A6087}"
+	ProjectSection(SolutionItems) = preProject
+		UriSamples.txt = UriSamples.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
